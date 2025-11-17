@@ -1,0 +1,104 @@
+# Node.js/.gitignore
+# =============================================================================
+# Node.js project ignore file
+# =============================================================================
+
+# Logs
+logs
+*.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output directory
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS generated files
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Coverage directory
+coverage/
+.nyc_output/
+
+# Test coverage
+.coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Webpack
+*.webpack/
+webpack.stats.json
+
+# TypeScript
+*.tsbuildinfo
+.next/
+
+# Yarn
+.yarn/
+.yarnrc.yml
+
+# Docker
+.docker/
+*.docker
+
+# Local config
+local.config.js
+config/local.json
+
+# Sentry
+.sentrycli/
+.sentrycrash/
+
+# Jest
+__snapshots__/
+jest-coverage/
+
+# Node version
+.nvmrc
+.nodenv-version
+
+# Package manager specific
+.pnpm-debug.log
+.pnpm-store/
+
+# System
+.ssh/
+.ssh_config
